@@ -1,0 +1,46 @@
+.message__header{
+    flex: 1;
+    height: 59px;
+    background-color: #EDEDED;
+    border: 0.7px solid #cfcfcf;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 408px;
+    user-select: none;
+}
+
+
+.message__headerAvatar{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.message__headerDetails{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.group__headerName{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 17px;
+    padding-bottom: 0px;
+    flex: 1;
+}
+
+.message__headerMembers{
+    font-size: 13px;
+    color: gray;
+}
+
+.message__options{
+    margin-right: 20px;
+}
+
+.message__options > svg{
+    margin: 0px 5px;
+    color: #919191;
+}

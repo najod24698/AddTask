@@ -1,0 +1,46 @@
+.group{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.group:hover{
+    background-color: #F5F5F5;
+}
+
+.group__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 73px;
+    border-bottom: 0.5px solid #ececec;
+}
+
+.group__timeAndName{
+    display: flex;
+}
+
+.group__icon{
+    margin: 0px 20px 0px 12px;
+}
+
+.group__name{
+    font-size: 17px;
+    padding-bottom: 4px;
+    flex: 1;
+}
+
+.group__lastTime{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    padding-right: 20px;
+}
+
+.group__icon > img{
+    width: 49px;
+}

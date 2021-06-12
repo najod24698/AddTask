@@ -1,0 +1,55 @@
+.personal{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.personal:hover{
+    background-color: #F5F5F5;
+}
+
+.personal__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 73px;
+    border-bottom: 0.5px solid #ececec;
+}
+
+.personal__timeAndName{
+    display: flex;
+}
+
+.personal__icon{
+    margin: 0px 20px 0px 12px;
+}
+
+.personal__name{
+    font-size: 17px;
+    padding-bottom: 4px;
+    flex: 1;
+}
+
+.personal__lastTime{
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+    padding-right: 20px;
+}
+
+.personal__status > img{
+    margin-right: 10px;
+}
+
+.personal__status{
+    display: flex;
+}
+
+.personal__avatar{
+    width: 49px;
+    height: 49px;
+}

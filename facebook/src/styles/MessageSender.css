@@ -1,0 +1,171 @@
+.message__sender{
+    width: 100%;
+    height: 60px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.message__senderOptionsLeft{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.message__senderOptionsLeft > svg{
+    margin: 0px 10px;
+    color: #919191;
+    font-size: 30px;
+}
+
+.send__localfile{
+    position: relative;
+}
+
+.send__localfile > svg{
+     margin: 0px 10px;
+    color: #919191;
+    font-size: 30px;
+}
+
+.message__sender > svg{
+    color: #919191;
+    font-size: 30px;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.send__localfile> svg:first-child{
+    transform: rotateZ(45deg);
+    margin-right: 30px;
+}
+
+.localfile__input{
+    cursor: pointer;
+    position: absolute;
+    z-index: 8;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+#message{
+    width: 100%;
+    flex: 1;
+    height: 42px;
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    text-indent: 20px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    z-index: 13;
+}
+
+.emojies{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    z-index: 13;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.emojiesActive{
+    bottom: -20px;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.fadeEmoji{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+
+.localimage__preview{
+    position: absolute;
+    z-index: 12;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 400px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.image__preview{
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.preview__active{
+    position: absolute;
+    top: -500px;
+}
+
+.image__caption{
+    margin: 0px 5%;
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #EDEDED;
+    font-size: 16px;
+    outline: none;
+}
+
+.localimage__button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+}
+
+#send__localImage{
+    padding: 10px 20px;
+    background-color: rgb(51, 189, 33);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#cancel__localImage{
+    padding: 10px 20px;
+    background-color: rgb(228, 38, 38);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 10px;
+    color: #fff;
+}

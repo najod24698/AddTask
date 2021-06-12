@@ -1,0 +1,43 @@
+.notification{
+    display: flex;
+    align-items: center;
+    height: 89px;
+    background-color: #9DE1FE;
+}
+
+.notification__bell{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 30px;
+    color: #9DE1FE;
+}
+
+.get__notified{
+    color: rgba(48, 48, 48, 0.822);
+    font-weight: 500;
+}
+
+.notification__link {
+    display: flex;
+    align-items: center;
+}
+
+.notification__link > svg{
+    color: rgba(48, 48, 48, 0.822);
+    margin-top: 4px;
+}
+
+.notification__link > a{
+    color: rgba(48, 48, 48, 0.822);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.notification__link > a:hover{
+    text-decoration: underline;
+}

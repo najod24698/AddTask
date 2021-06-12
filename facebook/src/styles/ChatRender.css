@@ -1,0 +1,25 @@
+.chat__render{
+    height: 500px;
+    position: sticky;
+    left: 0;
+    top: 80px;
+    z-index: 7;
+    overflow: auto;
+}
+
+.chat__render::-webkit-scrollbar{
+    width: 5px;
+}
+
+.chat__render::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.chat__render::-webkit-scrollbar-thumb {
+    background: rgb(133, 131, 131); 
+    border-radius: 10px;
+}
+
+.chat__render::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

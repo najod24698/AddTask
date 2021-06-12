@@ -1,0 +1,39 @@
+.search{
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid #ececec;
+}
+
+.search__bar{
+    width: 90%;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search__bar > svg{
+    color: #919191;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#search__input{
+    flex: 1;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+}
+
+.group__status{
+    display: flex;
+}
+
+.group__status > img{
+    margin-right: 10px;
+}
